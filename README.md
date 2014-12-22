@@ -1,4 +1,4 @@
-Trend Article Extraction API
+Trend Article Extraction
 ========================
 
 ## Overview

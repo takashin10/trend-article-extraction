@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/event_name"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/form_text"
+        android:hint="予定名"
+        android:singleLine="true"
+        android:textColor="#666666"
+        android:textColorHint="#cccccc" />
+
+    <Button
+        android:id="@+id/remove_btn_id"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/remove_button_selector"
+        android:visibility="gone" />
+
+</RelativeLayout>

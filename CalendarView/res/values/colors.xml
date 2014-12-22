@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="calendar_cel_selectl">#aaaaaa</color>
+    <color name="calendar_cel_check">#00EDED</color>
+    <color name="calendar_cel_check_select">#FFD9B3</color>
+    <color name="calendar_cell">#33999999</color>
+    <color name="list_select">#33999999</color>
+
+</resources>

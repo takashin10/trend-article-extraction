@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">Trend Article Extraction</string>
+
+    <!-- ActionBarアイテム -->
+    <string name="action_search">Keyword search</string>
+    <string name="action_auth">Authentication settings</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_lang">Language Settings</string>
+    <string name="action_about">About</string>
+
+    <!-- 記事一覧・検索結果共通 -->
+    <string name="txt_genre_list_empty">Failed to get genre information</string>
+    <string name="txt_article_date_format">MMM d KK:mm a</string>
+    <string name="txt_article_source_format">%1$s：%2$s</string>
+    <string name="msg_article_url_empty">Failed to get article URL</string>
+
+    <!-- 記事一覧 -->
+    <string name="txt_genre_tab_recomend">Recommended</string>
+    <string name="txt_article_list_empty">No article content found</string>
+    <string name="msg_article_err_update">Update of the article failed</string>
+
+    <!-- 検索結果 -->
+    <string name="edit_search_hint">Enter keywords</string>
+    <string name="txt_search_tab_all">All</string>
+    <string name="txt_result_list_empty">No search results found</string>
+
+    <!-- 認証設定 -->
+    <string name="txt_auth_introduction">Check out all articles on hot trends together!</string>
+    <string name="txt_auth_description">You will get recommendations of articles that suit your preferences</string>
+    <string name="btn_auth_twitter">Register on Twitter</string>
+    <string name="btn_auth_docomo">Register with docomo ID</string>
+    <string name="msg_auth_twitter_already_authorized">Twitter account has been authenticated</string>
+    <string name="msg_auth_twitter_authorized">Twitter account authentication has been completed</string>
+    <string name="msg_auth_docomo_refreshed">docomo ID has been authenticated</string>
+    <string name="msg_auth_docomo_authorized">docomo ID authentication has been completed</string>
+    <string name="msg_auth_twitter_err_title">Twitter Authentication</string>
+    <string name="msg_auth_twitter_err_url_empty">Failed to get authentication URL</string>
+    <string name="msg_auth_docomo_err_title">docomo ID authentication</string>
+    <string name="msg_auth_docomo_err_format">Authentication failed.\nError code:%1$s\n%2$s</string>
+    <string name="msg_auth_docomo_err_msg_input">Input error</string>
+    <string name="msg_auth_docomo_err_msg_auth">Authentication failed</string>
+    <string name="msg_auth_docomo_err_msg_internal">Internal error</string>
+    <string name="msg_auth_docomo_err_msg_network">Connection error</string>
+    <string name="msg_auth_docomo_err_msg_server">Server error</string>
+    <string name="msg_auth_docomo_err_msg_response">Data error</string>
+    <string name="msg_auth_docomo_err_msg_denied">Authentication was rejected</string>
+    <string name="msg_auth_docomo_err_msg_cancelled">Authentication was terminated</string>
+    <string name="msg_auth_docomo_err_msg_unknown">Unknown error</string>
+
+    <!-- About -->
+    <string name="msg_about_app_format">Version Code : %1$d\nVersion Name : %2$s</string>
+
+</resources>

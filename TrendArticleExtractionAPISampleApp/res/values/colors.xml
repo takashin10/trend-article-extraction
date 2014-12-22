@@ -1,0 +1,7 @@
+<resources>
+
+    <color name="bg_action_bar">#222222</color>
+    <color name="bg_tab_bar">#191919</color>
+    <color name="bg_activity">#191919</color>
+
+</resources>

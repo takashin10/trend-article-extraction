@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">トレンド記事抽出</string>
+
+    <!-- ActionBarアイテム -->
+    <string name="action_search">キーワード検索</string>
+    <string name="action_auth">認証設定</string>
+    <string name="action_reload">再読み込み</string>
+    <string name="action_lang">言語切替</string>
+    <string name="action_about">About</string>
+    
+    <!-- 記事一覧・検索結果共通 -->
+    <string name="txt_genre_list_empty">ジャンル情報の取得に失敗しました</string>
+    <string name="txt_article_date_format">M/d HH:mm</string>
+    <string name="txt_article_source_format">%1$s：%2$s</string>
+    <string name="msg_article_url_empty">記事URLを取得できませんでした</string>
+
+    <!-- 記事一覧 -->
+    <string name="txt_genre_tab_recomend">レコメンド</string>
+    <string name="txt_article_list_empty">記事コンテンツがありません</string>
+    <string name="msg_article_err_update">記事の更新に失敗しました</string>
+
+    <!-- 検索結果 -->
+    <string name="edit_search_hint">キーワードを入力</string>
+    <string name="txt_search_tab_all">すべて</string>
+    <string name="txt_result_list_empty">検索結果は0件です</string>
+
+    <!-- 認証設定 -->
+    <string name="txt_auth_introduction">最近話題になっている\nトレンド記事を\nまとめてチェック！</string>
+    <string name="txt_auth_description">あなたに合った記事もおすすめしてくれます</string>
+    <string name="btn_auth_twitter">Twitterで登録</string>
+    <string name="btn_auth_docomo">docomo IDで登録</string>
+    <string name="msg_auth_twitter_already_authorized">Twitter認証済みです</string>
+    <string name="msg_auth_twitter_authorized">Twitter認証を完了しました</string>
+    <string name="msg_auth_docomo_refreshed">docomo ID認証済みです</string>
+    <string name="msg_auth_docomo_authorized">docomo ID認証を完了しました</string>
+    <string name="msg_auth_twitter_err_title">Twitter認証</string>
+    <string name="msg_auth_twitter_err_url_empty">認証URLを取得できませんでした</string>
+    <string name="msg_auth_docomo_err_title">docomo ID認証</string>
+    <string name="msg_auth_docomo_err_format">認証に失敗しました\nエラーコード：%1$s\n%2$s</string>
+    <string name="msg_auth_docomo_err_msg_input">入力エラー</string>
+    <string name="msg_auth_docomo_err_msg_auth">認証失敗</string>
+    <string name="msg_auth_docomo_err_msg_internal">内部エラー</string>
+    <string name="msg_auth_docomo_err_msg_network">通信エラー</string>
+    <string name="msg_auth_docomo_err_msg_server">サーバエラー</string>
+    <string name="msg_auth_docomo_err_msg_response">データエラー</string>
+    <string name="msg_auth_docomo_err_msg_denied">認可拒否されました</string>
+    <string name="msg_auth_docomo_err_msg_cancelled">終了されました</string>
+    <string name="msg_auth_docomo_err_msg_unknown">不明なエラー</string>
+
+    <!-- About -->
+    <string name="msg_about_app_format">Version Code : %1$d\nVersion Name : %2$s</string>
+
+</resources>

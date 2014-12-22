@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CalendarView</string>
+    <string name="image_name">Image</string>
+
+    <string name="Mon">月</string>
+    <string name="Tue">火</string>
+    <string name="Wed">水</string>
+    <string name="Thu">木</string>
+    <string name="Fri">金</string>
+    <string name="Sat">土</string>
+    <string name="Sun">日</string>
+
+    <string name="NoResult">検索結果がありませんでした。</string>
+    <string name="NoData">予定データがありません。</string>
+
+    <string name="menu_twitter">Twitter連携</string>
+
+    <string name="msg_auth_twitter_err_title">Twitter認証</string>
+    <string name="msg_auth_twitter_err_url_empty">認証URLを取得できませんでした</string>
+</resources>

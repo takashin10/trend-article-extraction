@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="rltv_article_default_root_pad_b">7dp</dimen>
+    <dimen name="rltv_article_long_img_root_pad_b">7dp</dimen>
+    <dimen name="img_article_default_recomend_margin_r">14dp</dimen>
+    <dimen name="img_article_with_img_recomend_margin_r">9dp</dimen>
+    <dimen name="img_article_recomend_margin_t">8dp</dimen>
+
+</resources>

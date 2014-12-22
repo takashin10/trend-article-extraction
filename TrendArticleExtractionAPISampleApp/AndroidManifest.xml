@@ -1,0 +1,84 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.ne.docomo.smt.dev.webcuration.sample_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".TrendArticleExtractionApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="test-app" android:host="auth" />
+            </intent-filter>
+
+        </activity>
+            
+
+        <!-- KeywordSearchActivity -->
+        <activity
+            android:name=".activity.KeywordSearchActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <!-- AuthenticationActivity -->
+        <activity
+            android:name=".activity.AuthenticationActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <!-- TrendArticleProvider -->
+        <provider
+            android:name=".provider.TrendArticleProvider"
+            android:authorities="jp.ne.docomo.smt.dev.webcuration.sample_app.provider.trend_article_provider"
+            android:exported="false" />
+
+        <!-- ArticleUpdateService -->
+        <service
+            android:name=".service.ArticleUpdateService"
+            android:exported="false" />
+
+        <!-- ArticleStateUpdateService -->
+        <service
+            android:name=".service.ArticleStateUpdateService"
+            android:exported="false" />
+
+        <!-- LogDataSendingService -->
+        <service
+            android:name=".service.LogDataSendingService"
+            android:exported="false" />
+
+        <!-- OAuthActivity -->
+        <activity
+            android:name="jp.ne.docomo.smt.dev.oauth.OAuthActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|fontScale|locale" />
+    </application>
+
+</manifest>

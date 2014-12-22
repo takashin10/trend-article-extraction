@@ -1,0 +1,11 @@
+<sql>
+
+    <statement>
+		CREATE TABLE IF NOT EXISTS todo (
+		 id INTEGER PRIMARY KEY AUTOINCREMENT,
+		 create_at VARCHAR, 
+		 event VARCHAR
+		 )
+    </statement>
+
+</sql>

@@ -1,0 +1,7 @@
+<resources>
+
+    <color name="bg_action_bar">#eeeeee</color>
+    <color name="bg_tab_bar">#ffffff</color>
+    <color name="bg_activity">#ffffff</color>
+
+</resources>

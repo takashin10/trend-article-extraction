@@ -1,0 +1,43 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+-keepattributes *Annotation*,Signature,EnclosingMethod
+
+-keep class jp.ne.docomo.smt.dev.oauth.** { *; }
+
+-keep class jp.ne.docomo.smt.dev.common.** { *; }
+
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationContents { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationContentsAuthenticated { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationGenre { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationGenreAuthenticated { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationRecommend { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationSearch { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationSearchAuthenticated { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationSendLog { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.CurationSnsAuth { *; }
+
+-keep class jp.ne.docomo.smt.dev.webcuration.constants.** { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.data.** { *; }
+-keep class jp.ne.docomo.smt.dev.webcuration.param.** { *; }
+
+-keep class com.fasterxml.jackson.** { *; }
+-dontwarn org.w3c.dom.bootstrap.**
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+    public *;
+}

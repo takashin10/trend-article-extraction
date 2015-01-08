@@ -71,7 +71,6 @@ This API enables easy access from Android, iOS and the web. And servers are left
 
 Please make sure to comply with the guidelines in order to use our APIs.  
 [Guidline][guidline_ja]  
-[MIT](https://github.com/docomoDeveloperSupport/trend-article-extraction/LICENSE)  
 
 
 ## Author

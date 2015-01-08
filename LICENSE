@@ -1,22 +1,68 @@
-The MIT License (MIT)
+Sample Code Policy
 
-Copyright (c) 2014 docomo Developer support
+Policy on the use of source codes (hereafter called ‘the policy’) specify usage conditions etc. of provided codes (to be defined in Article 1, Item 4 of the policy) provided by NTT DOCOMO, INC. (hereafter called ‘the company’). Users who do not agree to the policy shall not be allowed to use the provided codes.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Article 1 (Definition)
+Definitions of the terms used in the policy are specified in the common policy as well as conforming to the specifications in the following Items.
+‘The site’ means docomo Developer support (https://dev.smt.docomo.ne.jp/) (including the web sites under such URL. In case the URL is changed by the company, the new URL shall apply) operated by the company.
+‘Applications’ mean application programs that execute certain functions on devices such as smartphones, tablet terminals and wearable terminals.
+‘Corresponding APIs’ mean all the APIs (Application Programming Interface) publicized on the site by the company or third parties.
+‘Corresponding APIs’ mean all the APIs (Application Programming Interface) publicized on the site by the company or third parties.
+‘Users’ mean those who use or employ provided codes by following the policy.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Article 2 (Agreement to the policy and forming of a contract)
+Upon opening the electronic files in which provided codes are recorded, it shall be considered that the users have agreed to the policy, a contract has been formed with the company based on the policy and the contract has taken effect.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Article 3 (Purpose of usage)
+The users can use the provided codes for the purpose of developing applications.
 
+Article 4 (Modification to provided codes)
+It shall be possible for the company to modify, add, abolish, interrupt or discontinue the provisioning of the whole of or a part of the provided codes (hereafter generally called ‘modification etc.’) at its discretion without advance notification to the users. Note that the company will not bear any responsibility for damage inflicted on the users or third parties by modification etc. to the provided codes.
+
+Article 5 (Permission to use)
+Within the scope of the purpose of usage specified in Article 3, the company permits the users to use or employ the provided codes (including sales of applications using or employing the provided codes) without limitation. Scope of such permission includes, but not restricted to, rights to copy, alter, combine, analyze, publicly transmit, distribute and sell.
+In case the users distribute the provided codes and their alterations to third parties by publicly transmitting, distributing, selling or by other means, the users shall elucidate the policy to the third parties and obtain their agreement to the policy.
+
+Article 6 (Charge)
+The company provides the users with the provided codes free of charge.
+
+Article 7 (Use of the corresponding APIs)
+When developing applications by using or employing the provided codes, the users shall abide by and execute the items specified below.
+
+The application shall be connected to one or more APIs provided on the site and the functions possessed by the APIs shall be executed. Conform to the guidelines etc. on the site for the connection to the corresponding APIs.
+In the significant parts in all of the copies of the provided codes, the following (1) and (2) shall be indicated.
+Copyright indication: 2014 NTT DOCOMO, INC. All Rights Reserved.
+To use or employ the provided codes, the users must agree to the policy indicated in the web page linked with the following URL. https://dev.smt.docomo.ne.jp/?p=common_page&p_name=samplecode_policy
+
+Article 8 (Non-guaranteed)
+For the provided codes, the company shall not provide any guarantee for adaptability to the users’ specific usage purposes, integrity of usage results, usefulness, accuracy, reliability, immediacy, infringement of the rights of third parties, etc., therefore, in this connection, the company shall not bear any responsibility for any damage suffered by the users or the third parties.
+
+Article 9 (Prohibited acts etc.)
+For the use of the provided codes, the users shall not be allowed to perform acts the company considers applicable or could be applicable to any of the following items.
+Acts that discriminate or slander and insult, defame character, or infringe privacy of third parties by employing the provided codes
+Acts that infringe third parties’ intellectual property rights (including copyrights, patents, utility model rights, design rights, trademark rights, legal names and rights of likeness) and other rights by employing the provided codes
+Acts to employ the provided codes for purposes other than those specified in Article 3
+Acts that excessively burden the company’s or third parties’ networks or other facilities or those that cause invalid behavior
+Acts of applications developed by employing the provided codes that violate the guarantees specified in each Item in Article 24, Section 1 of docomo Developer support function-common usage policy separately specified by NTT DOCOMO
+Other acts violating the policy
+Acts that recommend, encourage or assist the acts indicated in the aforementioned Items
+Acts other than those indicated in the aforementioned Items that the company consider inappropriate
+In case the company recognizes usage of the provided codes or applications developed by employing the provided codes which violate the policy including the Article (hereafter called ‘violating applications’), the company may, without prior notification, suspend the connection of the violating applications to the corresponding APIs and ban the violating acts and use of the violating applications.
+
+Article 10 (Intellectual property rights)
+All the rights including intellectual property rights such as copyrights etc. of all the writings such as the provided codes provided by abiding by the policy belong to the company or third parties, and concluding the contract with the policy will not transfer any rights to the users.
+
+Article 11 (Conflict with third parties)
+In case of occurrence of conflicts etc. between the users and third parties regarding the use of the provided codes, the company will not be obliged to resolve such conflicts etc. and the users shall resolve such conflicts etc. at their own cost and responsibility. Further, even in case the company voluntarily makes an effort to resolve such conflicts etc., it will not be obliged to resolve or continue the effort of resolving them.
+In case the company suffers a loss (including legal fees etc. to handle the loss) due to the conflicts indicated in the previous Item and users’ violation of the policy, the users shall compensate the company for such a loss.
+
+Article 12 (Changing the policy)
+It shall be possible for the company to change the policy due to its reasons without advance notification or consent from the users. In such a case, the policy after the change shall apply. Note that the policy are posted on the site.
+
+Article 13 (Governing law and jurisdiction)
+Validity, execution and interpretation of the policy shall conform to the Japanese law.
+In case the necessity of litigation arises between the users and the company concerning the policy, Tokyo District Court shall be the exclusive agreement jurisdictional court for the first trial.
+
+Supplementary provision
+The policy shall take effect on November 21, 2014.
+Original of this policie is the Japanese version.
